@@ -6,8 +6,8 @@ pipeline {
 				script {
 					// Запускаем скрипты
 					echo 'Running test1.sh in a separate shell'
-					sh 'chmod +x test1.sh' // Убедитесь, что скрипт имеет права на выполнение
-					sh 'nohup ./test1.sh &' // Запускаем в отдельном процессе
+					sh 'chmod +x test1.sh' 
+					sh 'nohup ./test1.sh &' 
 				}
 			}
 		}
@@ -16,8 +16,8 @@ pipeline {
 	            steps {
 	                script {
 	                	echo 'Running test2.sh in steps'
-	                	sh 'chmod +x test2.sh' // Убедитесь, что скрипт имеет права на выполнение
-	                	sh './test2.sh' // Запускаем в текущем процессе	
+	                	sh 'chmod +x test2.sh' 
+	                	sh './test2.sh' 
 				}
 			}
 		}
@@ -26,8 +26,8 @@ pipeline {
 	            steps {
 	                script {
 	                	echo 'Running test3.sh'
-	                	sh 'chmod +x test3.sh' // Убедитесь, что скрипт имеет права на выполнение
-	                	sh './test3.sh' // Запускаем в текущем процессе	
+	                	sh 'chmod +x test3.sh' 
+	                	sh './test3.sh' 
 	            		}
 			}
 		}
