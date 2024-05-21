@@ -1,1 +1,1 @@
-echo "SUUBSCRIBE"
+echo "OL'GA"
