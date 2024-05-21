@@ -1,1 +1,1 @@
-echo "SUCCESS"
+echo "new SUCCESS completed"
